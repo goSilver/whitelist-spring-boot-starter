@@ -1,0 +1,5 @@
+
+# 白名单用户
+gosilver:
+  whitelist:
+    users: aaa,bbb,ccc
