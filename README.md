@@ -47,3 +47,6 @@ whitelist-spring-boot-starter
 - DoWhiteList，是一个自定义注解。它作用就是在需要使用到的白名单服务的接口上，添加此注解并配置必要的信息。接口入参提取字段属性名称、拦截后的返回信息
 - WhiteListAutoConfigure，配置下是对 SpringBoot yml 文件的使用，这样就可以把配置到 yml 文件的中白名单信息读取到中间件中。
 - DoJoinPoint，是整个中间件的核心部分，它负责对所有添加自定义注解的方法进行拦截和逻辑处理。
+
+## 五、测试验证
+白名单测试工程：https://github.com/goSilver/whitelist-spring-boot-starter-test
