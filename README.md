@@ -22,7 +22,7 @@ whitelist-spring-boot-starter
 └── src
     ├── main
     │   └── java
-    │       ├── cn.bugstack.middleware.whitelist
+    │       ├── cn.gosilver.middleware.whitelist
     │       │   ├── annotation
     │       │   │   └── DoWhiteList.java
     │       │   ├── config
@@ -34,7 +34,7 @@ whitelist-spring-boot-starter
     │               └── spring.factories
     └── test
         └── java
-            └── cn.bugstack.middleware.test
+            └── cn.gosilver.middleware.test
                 └── ApiTest.java
 ```
 
